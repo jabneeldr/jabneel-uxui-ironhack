@@ -85,6 +85,14 @@ a.cta-button:active {
     background-color: darkred;
 }
 
+/* CV Download Button */
+a.cv-button:link, a.cv-button:visited {
+    background-color: orangered;
+    border-radius: 8px;
+    color: whitesmoke;
+    padding: 8px 16px;
+
+}
 
 .img-card{
     width: 100%;
@@ -103,9 +111,30 @@ a.cta-button:active {
     display: flex; 
   }
 
+.author-card {
+    align-items: center;
+}
+
+.author-photo {
+    width: 40px;
+    height: 40px;
+}
+
+.feat-card {
+    
+}
+
 #hero {
     background-image: url('../img/zhang-kaiyv-i1mXp2WOU4U-unsplash.jpg');
     background-size: cover;
     height: 50vh;
     text-align: center;
+}
+
+#hero div {
+    padding: 20px;
+}
+
+#articles {
+    justify-content: space-between;
 }
