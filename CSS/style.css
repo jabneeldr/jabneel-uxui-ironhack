@@ -3,6 +3,10 @@
     font-family: 'Exo 2', sans-serif; 
 }
 
+body {
+    margin: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Krona One', sans-serif;
 }
@@ -51,8 +55,17 @@ header {
     padding: 36px;
 }
 
+footer {
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
 img {
     /* width: 100%; */
+}
+
+video {
+    width: 100%;
 }
 
 /* LINKS */
@@ -94,14 +107,27 @@ a.cv-button:link, a.cv-button:visited {
 
 }
 
-.img-card{
+.img-card {
     width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 150px;
+}
+
+.img-holder {
+    position: relative;
+    height: 180px;
+    width: 100%;
+    overflow: hidden; /* this crop the image */
+    
 }
 
 .img-feat{
     width: 80px;
     height: 80px;
     border-radius: 50px;
+    margin: 20px;
 }
 .icons {
     font-size: 24px;
@@ -120,8 +146,22 @@ a.cv-button:link, a.cv-button:visited {
     height: 40px;
 }
 
+.feat-item {
+    flex-grow: 1;
+}
+
 .feat-card {
-    
+
+}
+
+a.btn-rocio {
+    font-family: 'Poppins', sans-serif;
+    color: #131045;
+    background-color: white;
+    border: 3px solid #131045;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 0 #131045;
+    border-radius: 100px;
 }
 
 #hero {
@@ -137,4 +177,13 @@ a.cv-button:link, a.cv-button:visited {
 
 #articles {
     justify-content: space-between;
+}
+
+#contact {
+    justify-content: space-around;
+    color: bisque;
+}
+
+#video {
+    padding: 0;
 }
