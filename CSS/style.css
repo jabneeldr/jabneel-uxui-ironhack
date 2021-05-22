@@ -68,6 +68,33 @@ video {
     width: 100%;
 }
 
+/* Forms */
+
+input [type=text] {
+    background-image: url(../icons/user-line.png);
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 40px;
+
+}
+
+input [type=email] {
+    background-image: url(../icons/mail-line.png);
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 40px;
+}
+
+input:focus {
+    background-color: lightyellow;
+    border: none;
+}
+
+textarea {
+    
+}
+
+
 /* LINKS */
 a:link, a:visited {
     text-decoration: none;
@@ -148,10 +175,6 @@ a.cv-button:link, a.cv-button:visited {
 
 .feat-item {
     flex-grow: 1;
-}
-
-.feat-card {
-
 }
 
 a.btn-rocio {
