@@ -33,9 +33,24 @@ h6 {
     font-size: 1.25rem;
 }
 
-#hero-image {
+.hero-image {
     position:fixed;
     height: 516px;
     left: 0;
     right: 0;
     top: 267px;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 64px;
+
+    position: absolute;
+    height: 76px;
+    left: 50px;
+    right: 48px;
+    top: 191px;
+}
