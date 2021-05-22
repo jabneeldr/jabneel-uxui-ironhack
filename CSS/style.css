@@ -70,19 +70,28 @@ video {
 
 /* Forms */
 
-input [type=text] {
+input{
+    padding: 16px 24px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+input[type=text] {
     background-image: url(../icons/user-line.png);
     background-repeat: no-repeat;
     background-position: 8px;
     padding-left: 40px;
+    width: 77%;
 
 }
 
-input [type=email] {
+input[type=email] {
     background-image: url(../icons/mail-line.png);
     background-repeat: no-repeat;
     background-position: 8px;
     padding-left: 40px;
+    width: 77%;
 }
 
 input:focus {
@@ -91,7 +100,25 @@ input:focus {
 }
 
 textarea {
-    
+    width: 80%;
+    height: 150px;
+    padding: 16px 24px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+    resize: none;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    width: 90%;
+}
+
+#btn-form{
+    width: 90%;
 }
 
 
@@ -187,6 +214,10 @@ a.btn-rocio {
     border-radius: 100px;
 }
 
+.div-contact {
+    flex: 1;
+}
+
 #hero {
     background-image: url('../img/zhang-kaiyv-i1mXp2WOU4U-unsplash.jpg');
     background-size: cover;
@@ -205,6 +236,10 @@ a.btn-rocio {
 #contact {
     justify-content: space-around;
     color: bisque;
+}
+
+#contact div {
+    padding: 20px;
 }
 
 #video {
