@@ -40,7 +40,6 @@ h6 {
     right: 0;
     top: 267px;
 }
-
 .main-menu {
     display: flex;
     flex-direction: column;
@@ -53,4 +52,17 @@ h6 {
     left: 50px;
     right: 48px;
     top: 191px;
+}
+
+.container {
+    display: flex;
+}
+
+#hero {
+    background-image:;
+}
+
+#logo{
+    width: 24px;
+    height: 24px;
 }
